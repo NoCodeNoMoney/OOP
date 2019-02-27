@@ -1,17 +1,17 @@
-/*Наследование и полиморфизм*/
+/*РќР°СЃР»РµРґРѕРІР°РЅРёРµ Рё РїРѕР»РёРјРѕСЂС„РёР·Рј*/
 
 
-#pragma once//Ограничивает повторное включение одинаковых хедов.
+#pragma once//РћРіСЂР°РЅРёС‡РёРІР°РµС‚ РїРѕРІС‚РѕСЂРЅРѕРµ РІРєР»СЋС‡РµРЅРёРµ РѕРґРёРЅР°РєРѕРІС‹С… С…РµРґРѕРІ.
 #include "Person6.h"
-//дочерний класс наследован от Person
-
+//РґРѕС‡РµСЂРЅРёР№ РєР»Р°СЃСЃ РЅР°СЃР»РµРґРѕРІР°РЅ РѕС‚ Person 
+//РѕСЂРѕ
 namespace Lab6
 {
 	class Adult : public Person
 	{
 	public:
-		Person * MarriedOn = NULL;//(человек, на ком женат/замужем или NULL в ином случае)
-		char WorkPlace[100];//(название места работы)
+		Person * MarriedOn = NULL;//(С‡РµР»РѕРІРµРє, РЅР° РєРѕРј Р¶РµРЅР°С‚/Р·Р°РјСѓР¶РµРј РёР»Рё NULL РІ РёРЅРѕРј СЃР»СѓС‡Р°Рµ)
+		char WorkPlace[100];//(РЅР°Р·РІР°РЅРёРµ РјРµСЃС‚Р° СЂР°Р±РѕС‚С‹)
 		virtual void SetAge(int age) override;
 		virtual int GetAge() override;
 		virtual string GetDescription() override;
