@@ -1,4 +1,4 @@
-/*Классы*/
+/*РљР»Р°СЃСЃС‹*/
 
 
 
@@ -24,24 +24,24 @@ namespace Lab5
 	class PersonList
 	{
 	public:
-		void Add(Person * person);//добавить человека в список	
-		Person* Find(int index);//найти человека по указанному индексу
-		int IndexOf(Person * person);//вернуть индекс человека, если он есть в списке
-		void Remove(Person * person);//удалить человека из списка
-		void RemoveAt(int index);//удалить человека из списка по индексу
-		void Clear();//очистить список
-		int GetCount();//получить количество элементов
-		int ShowInConsole(int k);//вывод персоны на экран
-		void Read();//чтение персоны с клавиатуры 
+		void Add(Person * person);//РґРѕР±Р°РІРёС‚СЊ С‡РµР»РѕРІРµРєР° РІ СЃРїРёСЃРѕРє		
+		Person* Find(int index);//РЅР°Р№С‚Рё С‡РµР»РѕРІРµРєР° РїРѕ СѓРєР°Р·Р°РЅРЅРѕРјСѓ РёРЅРґРµРєСЃСѓ
+		int IndexOf(Person * person);//РІРµСЂРЅСѓС‚СЊ РёРЅРґРµРєСЃ С‡РµР»РѕРІРµРєР°, РµСЃР»Рё РѕРЅ РµСЃС‚СЊ РІ СЃРїРёСЃРєРµ
+		void Remove(Person * person);//СѓРґР°Р»РёС‚СЊ С‡РµР»РѕРІРµРєР° РёР· СЃРїРёСЃРєР°
+		void RemoveAt(int index);//СѓРґР°Р»РёС‚СЊ С‡РµР»РѕРІРµРєР° РёР· СЃРїРёСЃРєР° РїРѕ РёРЅРґРµРєСЃСѓ
+		void Clear();//РѕС‡РёСЃС‚РёС‚СЊ СЃРїРёСЃРѕРє
+		int GetCount();//РїРѕР»СѓС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ
+		int ShowInConsole(int k);//РІС‹РІРѕРґ РїРµСЂСЃРѕРЅС‹ РЅР° СЌРєСЂР°РЅ
+		void Read();//С‡С‚РµРЅРёРµ РїРµСЂСЃРѕРЅС‹ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹ 
 		int Copy(int k);
-		void AddByIndex(Person * person, int k);//добавить человека по индексу
+		void AddByIndex(Person * person, int k);//РґРѕР±Р°РІРёС‚СЊ С‡РµР»РѕРІРµРєР° РїРѕ РёРЅРґРµРєСЃСѓ
 		static Person GetRandomPerson();
 		Person * FindPerson(int index);
-		PersonList() { };//конструктор класса
+		PersonList() { };//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєР»Р°СЃСЃР°
 	private:
-		PersonListItem * _head;//указатель на голову списка
+		PersonListItem * _head;//СѓРєР°Р·Р°С‚РµР»СЊ РЅР° РіРѕР»РѕРІСѓ СЃРїРёСЃРєР°
 		PersonListItem* _tail;
-		int _count;//количество элементов в списке
+		int _count;//РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ СЃРїРёСЃРєРµ
 	};
 
 }
