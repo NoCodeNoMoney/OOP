@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Lab3">
+      <UniqueIdentifier>{73259062-84b4-418c-b336-6da5b1ae1e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Lab3">
+      <UniqueIdentifier>{41049038-d12b-4c3f-bb46-7a48303f0c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Lab4">
+      <UniqueIdentifier>{ad2f73fc-9abd-4d98-a6b6-dbdaac69053f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Lab5">
+      <UniqueIdentifier>{182096ac-1d3f-406e-94ae-7f9ecc6ea6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Lab4">
+      <UniqueIdentifier>{5ff7dcb7-ecca-4707-9457-6f62892698bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Lab5">
+      <UniqueIdentifier>{f1efef93-2976-47d8-8a27-e4a2d9584454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Lab6">
+      <UniqueIdentifier>{ad660d7e-8950-4e46-9a9b-d90f705e37f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Lab6">
+      <UniqueIdentifier>{9a1ee205-5546-4178-b06c-458a231a4bdf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab7.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3.cpp">
+      <Filter>Файлы исходного кода\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab4.cpp">
+      <Filter>Файлы исходного кода\Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="UILab5.cpp">
+      <Filter>Файлы исходного кода\Lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonList.cpp">
+      <Filter>Файлы исходного кода\Lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="Adult.cpp">
+      <Filter>Файлы исходного кода\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="Child.cpp">
+      <Filter>Файлы исходного кода\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="Person6.cpp">
+      <Filter>Файлы исходного кода\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonList6.cpp">
+      <Filter>Файлы исходного кода\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="UILab6.cpp">
+      <Filter>Файлы исходного кода\Lab6</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lab7.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab3.h">
+      <Filter>Заголовочные файлы\Lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab4.h">
+      <Filter>Заголовочные файлы\Lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Заголовочные файлы\Lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonList.h">
+      <Filter>Заголовочные файлы\Lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="UILab5.h">
+      <Filter>Заголовочные файлы\Lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="Child.h">
+      <Filter>Заголовочные файлы\Lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="Person6.h">
+      <Filter>Заголовочные файлы\Lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="UILab6.h">
+      <Filter>Заголовочные файлы\Lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="Adult.h">
+      <Filter>Заголовочные файлы\Lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonList6.h">
+      <Filter>Заголовочные файлы\Lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckSymbol.h">
+      <Filter>Файлы исходного кода</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
