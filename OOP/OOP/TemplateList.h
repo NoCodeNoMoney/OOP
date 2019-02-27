@@ -1,5 +1,4 @@
-
-/*Обобщения в C++*/
+/*РћР±РѕР±С‰РµРЅРёСЏ РІ C++*/
 
 #pragma once
 #include "CheckSymbol.h"
@@ -57,7 +56,7 @@ namespace Lab7
 		friend std::ostream& operator<<(std::ostream& os, TemplateList& list)
 		{
 			TemplateListItem<T>* temp = list._head;
-			cout << "Подсписок: ";
+			cout << "ГЏГ®Г¤Г±ГЇГЁГ±Г®ГЄ: ";
 			while (temp != NULL)
 			{
 				cout << temp->Value << "  ";
