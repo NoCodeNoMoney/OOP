@@ -4,7 +4,7 @@
 #pragma once//Ограничивает повторное включение одинаковых хедов.
 #include "Person6.h"
 //дочерний класс наследован от Person 
-//оро
+
 namespace Lab6
 {
 	class Adult : public Person
