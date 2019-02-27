@@ -1,11 +1,11 @@
-/*Наследование и полиморфизм*/
+/*ГЌГ Г±Г«ГҐГ¤Г®ГўГ Г­ГЁГҐ ГЁ ГЇГ®Г«ГЁГ¬Г®Г°ГґГЁГ§Г¬*/
 
 
 
 #pragma once
 #include "Person6.h"
-//дочерний класс наследован от Person
-
+//Г¤Г®Г·ГҐГ°Г­ГЁГ© ГЄГ«Г Г±Г± Г­Г Г±Г«ГҐГ¤Г®ГўГ Г­ Г®ГІ Person
+//С„С‹РІ
 namespace Lab6
 {
 
@@ -14,7 +14,7 @@ namespace Lab6
 	public:
 		Person * Mother;
 		Person* Father;
-		char School[100];//(название детского сада/школы)
+		char School[100];//(Г­Г Г§ГўГ Г­ГЁГҐ Г¤ГҐГІГ±ГЄГ®ГЈГ® Г±Г Г¤Г /ГёГЄГ®Г«Г»)
 		virtual void SetAge(int age) override;
 		virtual int GetAge()override;
 		virtual string GetDescription() override;
