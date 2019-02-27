@@ -5,7 +5,7 @@
 #pragma once
 #include "Person6.h"
 //äî÷åðíèé êëàññ íàñëåäîâàí îò Person
-//фыв
+
 namespace Lab6
 {
 
