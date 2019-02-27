@@ -1,5 +1,5 @@
 
-/*Ñòðóêòóðû äàííûõ è äèíàìè÷åñêàÿ ïàìÿòü*/
+/*Структуры данных и динамическая память*/
 
 
 #pragma once
@@ -8,16 +8,16 @@
 namespace Lab4{
 	
 
-	enum Sex { Female, Male };	//Ïåðå÷åñëåíèå äëÿ ïîëà
+	enum Sex { Female, Male };	//Перечесление для пола
 
-	struct Person//Ñòðóêòóðà õðîíÿùàÿ èíôîðìàöèþ äëÿ Ïåðñîíû
+	struct Person//Структура хронящая информацию для Персоны
 	{
 		string Surname;
 		string Name;
 		Sex SexPerson;
 	};
 
-	struct Node//Íîäà äâóñâÿçíîãî ñïèñêà
+	struct Node//Нода двусвязного списка
 	{
 		Person data;
 		Node* next = NULL;
@@ -25,22 +25,23 @@ namespace Lab4{
 
 	};
 
-	struct DoublyLinkedList//Ãîëîâà è õâîñò äâóñâÿçíîãî ñïèñêà
+	struct DoublyLinkedList//Голова и хвост двусвязного списка
 	{
 		Node* head = NULL;
 		Node* tail = NULL;
 	};
 
-	DoublyLinkedList AddEnd(DoublyLinkedList list, Person* person);//ïîìåùàåò ïåðåìåííóþ òèïà Person â êîíåö ñïèñêà.
-	void ShowInConsole(DoublyLinkedList list); //âûâîäèò íà ýêðàí ñîäåðæèìîå ñïèñêà.
-	Person* GetByIndex(DoublyLinkedList list, int index);//âîçâðàùàþùóþ ññûëêó (èëè óêàçàòåëü) íà ýëåìåíò ñïèñêà ïî óêàçàííîìó èíäåêñó.
-	DoublyLinkedList RemoveByIndex(DoublyLinkedList list, int index);// óäàëÿåò èç ñïèñêà ýëåìåíò ïî óêàçàííîìó èíäåêñó
-	DoublyLinkedList InsertByindex(DoublyLinkedList list, Person* person, int index);//ïîìåùàþùóþ ïåðåìåííóþ òèïà
+	DoublyLinkedList AddEnd(DoublyLinkedList list, Person* person);//помещает переменную типа Person в конец списка.
+	void ShowInConsole(DoublyLinkedList list); //выводит на экран содержимое списка.
+	Person* GetByIndex(DoublyLinkedList list, int index);//возвращающую ссылку (или указатель) на элемент списка по указанному индексу.
+	DoublyLinkedList RemoveByIndex(DoublyLinkedList list, int index);// удаляет из списка элемент по указанному индексу
+	DoublyLinkedList InsertByindex(DoublyLinkedList list, Person* person, int index);//помещает переменную типа
+											 //Person по указанному индексу.
 																					//Person ïî óêàçàííîìó èíäåêñó.
-	DoublyLinkedList Clear(DoublyLinkedList list);//î÷èùàåò ñîäåðæèìîå ñïèñêà. 
+	DoublyLinkedList Clear(DoublyLinkedList list);//очищает содержимое списка. 
 
-	Person ReadPerson();//ñ÷èòûâàåò äàííûå ÷åëîâåêà ñ êëàâèàòóðû.
-	Person MakeRandomPerson();//âîçâðàùàþùóþ ïåðåìåííóþ òèïà Person, èíèöèàëèçèðîâàííóþ ñëó÷àéíûìè äàííûìè.
-	void UILab4();//Ìåí
+	Person ReadPerson();//считывает данные человека с клавиатуры.
+	Person MakeRandomPerson();//возвращающую переменную типа Person, инициализированную случайными данными.
+	void UILab4();//Меню
 
 }
