@@ -1,3 +1,6 @@
+/*Классы*/
+
+
 #pragma once
 #include "CheckSymbol.h"
 

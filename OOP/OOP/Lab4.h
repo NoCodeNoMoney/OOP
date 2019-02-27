@@ -1,31 +1,23 @@
+
+/*—труктуры данных и динамическа€ пам€ть*/
+
+
 #pragma once
 #include "CheckSymbol.h"
 
 namespace Lab4{
+	
 
-	inline int CheckSymbol()
-	{
-		string n;
-		int m;
-		do
-		{
-			cin >> n;
-			if (n == "0") { return 0; }
-			m = atoi(n.c_str());
-		} while (m == 0);
-		return m;
-	}
+	enum Sex { Female, Male };	//ѕеречесление дл€ пола
 
-	enum Sex { Female, Male };
-
-	struct Person
+	struct Person//—труктура хрон€ща€ информацию дл€ ѕерсоны
 	{
 		string Surname;
 		string Name;
 		Sex SexPerson;
 	};
 
-	struct Node
+	struct Node//Ќода двусв€зного списка
 	{
 		Person data;
 		Node* next = NULL;
@@ -33,21 +25,22 @@ namespace Lab4{
 
 	};
 
-	struct DoublyLinkedList
+	struct DoublyLinkedList//√олова и хвост двусв€зного списка
 	{
 		Node* head = NULL;
 		Node* tail = NULL;
 	};
 
-	DoublyLinkedList AddEnd(DoublyLinkedList list, Person* person);
-	void ShowInConsole(DoublyLinkedList list);
-	Person* GetByIndex(DoublyLinkedList list, int index);
-	DoublyLinkedList RemoveByIndex(DoublyLinkedList list, int index);
-	DoublyLinkedList InsertByindex(DoublyLinkedList list, Person* person, int index);
-	DoublyLinkedList Clear(DoublyLinkedList list);
+	DoublyLinkedList AddEnd(DoublyLinkedList list, Person* person);//помещает переменную типа Person в конец списка.
+	void ShowInConsole(DoublyLinkedList list); //выводит на экран содержимое списка.
+	Person* GetByIndex(DoublyLinkedList list, int index);//возвращающую ссылку (или указатель) на элемент списка по указанному индексу.
+	DoublyLinkedList RemoveByIndex(DoublyLinkedList list, int index);// удал€ет из списка элемент по указанному индексу
+	DoublyLinkedList InsertByindex(DoublyLinkedList list, Person* person, int index);//помещающую переменную типа
+																					//Person по указанному индексу.
+	DoublyLinkedList Clear(DoublyLinkedList list);//очищает содержимое списка. 
 
-	Person ReadPerson();
-	Person MakeRandomPerson();
-	void UILab4();
+	Person ReadPerson();//считывает данные человека с клавиатуры.
+	Person MakeRandomPerson();//возвращающую переменную типа Person, инициализированную случайными данными.
+	void UILab4();//ћеню
 
 }

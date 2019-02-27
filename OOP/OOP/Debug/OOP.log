@@ -1,24 +1,60 @@
-﻿Сборка начата 26.02.2019 20:45:33.
+﻿Сборка начата 27.02.2019 17:06:47.
      1>Проект "C:\Users\Neo\Desktop\ООП лабы\OOP-Labs\OOP\OOP\OOP.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt UILab5.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Adult.cpp Child.cpp Lab3.cpp Lab4.cpp main.cpp Person6.cpp PersonList.cpp PersonList6.cpp UILab5.cpp UILab6.cpp UILab7.cpp
+         UILab7.cpp
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\templatelist.h(315): warning C4018: <=: несоответствие типов со знаком и без знака
+                 c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\templatelist.h(303): при компиляции функции-члена "Lab7::Person Lab7::TemplateList<Lab7::Person>::GetRandomPerson(void)" класса шаблон
+                 c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\uilab7.cpp(45): см. ссылку на создание экземпляров функции шаблон при компиляции "Lab7::Person Lab7::TemplateList<Lab7::Person>::GetRandomPerson(void)"
+                 c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\uilab7.cpp(6): см. ссылку на создание экземпляров класса шаблон при компиляции "Lab7::TemplateList<Lab7::Person>"
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\templatelist.h(319): warning C4018: <=: несоответствие типов со знаком и без знака
+         main.cpp
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\main.cpp(11): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         Создание кода...
+         Компиляция...
+         UILab6.cpp
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\uilab6.cpp(6): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
          UILab5.cpp
      1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\uilab5.cpp(55): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         PersonList6.cpp
+         PersonList.cpp
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\personlist.cpp(233): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\personlist.cpp(262): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\personlist.cpp(329): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\personlist.cpp(333): warning C4018: <=: несоответствие типов со знаком и без знака
+         Person6.cpp
+         Lab4.cpp
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\lab4.cpp(246): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         Lab3.cpp
+         Child.cpp
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\child.cpp(38): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\child.cpp(42): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\child.cpp(55): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\child.cpp(59): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\child.cpp(69): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\child.cpp(73): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\child.cpp(84): warning C4018: <=: несоответствие типов со знаком и без знака
+         Adult.cpp
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\adult.cpp(61): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\adult.cpp(65): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\adult.cpp(76): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\neo\desktop\ооп лабы\oop-labs\oop\oop\adult.cpp(80): warning C4018: <: несоответствие типов со знаком и без знака
+         Создание кода...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Neo\Desktop\ООП лабы\OOP-Labs\OOP\Debug\OOP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Neo\Desktop\ООП лабы\OOP-Labs\OOP\Debug\OOP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Neo\Desktop\ООП лабы\OOP-Labs\OOP\Debug\OOP.lib" /MACHINE:X86 Debug\Adult.obj
          Debug\Child.obj
          Debug\Lab3.obj
          Debug\Lab4.obj
-         Debug\Lab7.obj
          Debug\main.obj
          Debug\Person6.obj
          Debug\PersonList.obj
          Debug\PersonList6.obj
          Debug\UILab5.obj
          Debug\UILab6.obj
+         Debug\UILab7.obj
          OOP.vcxproj -> C:\Users\Neo\Desktop\ООП лабы\OOP-Labs\OOP\Debug\OOP.exe
      1>Сборка проекта "C:\Users\Neo\Desktop\ООП лабы\OOP-Labs\OOP\OOP\OOP.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:00.79
+Затраченное время: 00:00:05.53

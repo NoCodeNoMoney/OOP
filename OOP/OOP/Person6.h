@@ -1,3 +1,7 @@
+/*Наследование и полиморфизм*/
+
+
+
 #pragma once
 #include "CheckSymbol.h"
 
@@ -6,7 +10,7 @@ namespace Lab6
 {
 
 	enum Sex { Female, Male };
-
+//Базовый класс
 	class Person
 	{
 	protected:

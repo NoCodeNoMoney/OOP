@@ -82,13 +82,13 @@
     <ClCompile Include="Child.cpp" />
     <ClCompile Include="Lab3.cpp" />
     <ClCompile Include="Lab4.cpp" />
-    <ClCompile Include="Lab7.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Person6.cpp" />
     <ClCompile Include="PersonList.cpp" />
     <ClCompile Include="PersonList6.cpp" />
     <ClCompile Include="UILab5.cpp" />
     <ClCompile Include="UILab6.cpp" />
+    <ClCompile Include="UILab7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Adult.h" />
@@ -96,13 +96,14 @@
     <ClInclude Include="Child.h" />
     <ClInclude Include="Lab3.h" />
     <ClInclude Include="Lab4.h" />
-    <ClInclude Include="Lab7.h" />
     <ClInclude Include="PersonList6.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Person6.h" />
     <ClInclude Include="PersonList.h" />
+    <ClInclude Include="TemplateList.h" />
     <ClInclude Include="UILab5.h" />
     <ClInclude Include="UILab6.h" />
+    <ClInclude Include="UILab7.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

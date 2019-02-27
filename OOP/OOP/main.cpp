@@ -2,7 +2,7 @@
 #include "Lab4.h"
 #include "UILab5.h"
 #include "UILab6.h"
-
+#include "UILab7.h"
 
 
 void main()
@@ -18,7 +18,7 @@ void main()
 			<< "[2] Lab 4" << endl
 			<< "[3] Lab 5" << endl
 			<< "[4] Lab 6" << endl
-			//<< "[5] Lab 7" << endl
+			<< "[5] Lab 7" << endl
 			<< "[0] Exit" << endl
 			<< "------------------" << endl
 			<< "Choose 0-5: ";
@@ -34,10 +34,10 @@ void main()
 			UILab5(); break;
 		case 4:
 			UILab6(); break;
-			/*
+			
 		case 5:
 			UILab7(); break;
-			*/
+			
 		case 0:
 			
 		default:

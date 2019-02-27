@@ -1,3 +1,8 @@
+/*Наследование и полиморфизм*/
+
+
+
+
 #pragma once
 #include "Adult.h"
 #include "Child.h"
